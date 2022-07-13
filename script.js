@@ -60,7 +60,7 @@ mainbtn.addEventListener("click", () => {
 function first_song(songs) {
     title.innerText = songs.title;
     artist.innerText = songs.artist;
-    music.src = songs.name + ".mp3";
+    music.src = `${songs.name}.mp3`;
     //music.play() ;
     current_time.innerText = "0:0";
     let d = 0;
@@ -69,7 +69,7 @@ function first_song(songs) {
 function loadsong(songs) {
     title.innerText = songs.title;
     artist.innerText = songs.artist;
-    music.src = songs.name + ".mp3";
+    music.src = `${songs.name}.mp3`;
     if (mainbtn.title == "pause")
         music.play();
     current_time.innerText = "0:0";
