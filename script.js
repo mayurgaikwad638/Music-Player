@@ -44,7 +44,14 @@ mainbtn.addEventListener("click", () => {
 
     if (check == false) {
         check = true;
-        music.play();
+        music.load() ;
+        music.play().then(()=> {
+
+        })
+        .catch(error => {
+            console.log(error) ;
+        })
+
         img.classList.add("anime");
         mainbtn.classList.replace("fa-play", "fa-pause");
         mainbtn.title = "pause";
@@ -70,8 +77,14 @@ function loadsong(songs) {
     title.innerText = songs.title;
     artist.innerText = songs.artist;
     music.src = `${songs.name}.mp3`;
-    if (mainbtn.title == "pause")
-        music.play();
+    if (mainbtn.title == "pause"){
+        music.play().then(()=> {
+
+        })
+        .catch(error => {
+            console.log(error) ;
+        })
+    }
     current_time.innerText = "0:0";
     let d = 0;
     duration.innerHTML = `${d}:${d}`;
@@ -132,13 +145,18 @@ function mayur(index) {
     music.src = `${songs[index].name}.mp3`;
     title.innerText = songs[index].title;
     artist.innerText = songs[index].artist;
-    music.play();
+    music.play().then(()=> {
+
+    })
+    .catch(error => {
+        console.log(error) ;
+    })
     mainbtn.classList.replace("fa-play", "fa-pause");
     mainbtn.title = "pause";
     check = true;
     img.classList.add("anime");
     current_song = index;
-    console.log(current_song);
+    //console.log(current_song);
 }
 
 
