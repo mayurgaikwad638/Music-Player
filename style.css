@@ -13,6 +13,10 @@ body {
 .playlist-btn {
     display: none;
 }
+
+.menu {
+    position: absolute;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -200,10 +204,21 @@ body {
     #playlist {
         display: none;
     }
-    
+    .container {
+
+        width: 80vw;
+        margin-top: 5rem;
+        justify-content: flex-start;
+        overflow: hidden;
+        margin-left: 1rem;
+    }
+    .music-container {
+        width: 95%;
+        justify-content: flex-start;
+    }
     .main-container {
-        height: 32rem;
-        width: 25rem;
+        height: 30rem;
+        width: 90%;
     }
     #current_time {
         padding: 0 4rem 0 0rem;
