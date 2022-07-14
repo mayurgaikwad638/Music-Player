@@ -1,16 +1,16 @@
 // songs saved here
 const songs = [{
-    name: "_De_De_Pyaar_De_",
+    name: "De_De_Pyaar_De_",
     title: "_De_De_Pyaar_De_",
     artist: "palak"
 },
 {
-    name: "_Dil_Mein_Ho_Tum_WHY_CHEAT_INDIA__Emraan_H,_Shreya_DRochak_K,_Armaan_M,_Bappi_L,_Manoj_M",
+    name: "Dil_Mein_Ho_Tum_WHY_CHEAT_INDIA__Emraan_H,_Shreya_DRochak_K,_Armaan_M,_Bappi_L,_Manoj_M",
     title: "Dil mein ho tum..",
     artist: "armaan malik,Bappi L",
 },
 {
-    name: "_Duniyaa_Full_Video_Song_Kartik_Aaryan_Kriti_Sanon_Akhil__Dhvani_B__Duniya_Full_Song",
+    name: "Duniyaa_Full_Video_Song_Kartik_Aaryan_Kriti_Sanon_Akhil__Dhvani_B__Duniya_Full_Song",
     title: "Duniyaa....",
     artist: "Akhil , Dhvani B",
 },
@@ -19,7 +19,7 @@ const songs = [{
     title: "Chaho mein aana ",
     artist: "arijit singh",
 }, {
-    name: "_Khairiyat_Song_(Sad_Version)__Chhichhore__Pritam__Amitabh_Bhattacharya(256k)",
+    name: "Khairiyat_Song_(Sad_Version)__Chhichhore__Pritam__Amitabh_Bhattacharya(256k)",
     title: "Khairiyat",
     artist: "Pritam, Amitabh Bhattacharya",
 },
